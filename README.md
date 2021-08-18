@@ -1,3 +1,7 @@
+React FullStack 1
+
+Following Udemy Tutorial First Project in React / Redux / Hooks ... etc
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
