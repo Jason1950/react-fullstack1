@@ -2,6 +2,10 @@ React FullStack 1
 
 Following Udemy Tutorial First Project in React / Redux / Hooks ... etc
 
+The web view is like :
+
+![image](./picture/readme_Picture.JPG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
