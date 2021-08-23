@@ -1,8 +1,23 @@
 
 import React,{Fragment} from 'react';
+import Navbar from './components/layout/Navbar';
 import './App.css';
 
+
+//this is App example for 3-1, Navbar Component !
 class App extends React.Component{
+    render(){
+        return(
+            <div className="App">
+                <Navbar />
+                <h2>Hello</h2>
+            </div>
+        );
+    }
+}
+
+// this is App example for 2-8
+class App2_8 extends React.Component{
     render(){
         const name = "Jason Shen";
         const loadState = false;
@@ -15,6 +30,7 @@ class App extends React.Component{
     }
 }
 
+// arrow function and render return choise !
 class AppState extends React.Component{
     fooOutScope = () => "xddd";
     render(){
