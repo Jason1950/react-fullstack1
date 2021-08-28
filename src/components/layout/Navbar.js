@@ -5,7 +5,8 @@ import PropTypes from 'prop-types'
 export class Navbar extends Component {
     static defaultProps = {
         title : 'Github Finder Props Title',
-        icons : 'fab fa-github'
+        icons : 'fab fa-github',
+        test : 'test Json'
     }
 
     render() {
