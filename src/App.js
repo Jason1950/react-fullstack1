@@ -9,7 +9,7 @@ class App extends React.Component{
     render(){
         return(
             <div className="App">
-                <Navbar tittle="Github Finder" />
+                <Navbar title="Github Finder" icon="fab fa-github" />
                 <h2>Hello</h2>
             </div>
         );
