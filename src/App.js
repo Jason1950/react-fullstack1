@@ -1,6 +1,7 @@
 
 import React,{Fragment} from 'react';
 import Navbar from './components/layout/Navbar';
+import UserItem from './components/users/UserItem';
 import './App.css';
 
 
@@ -11,6 +12,7 @@ class App extends React.Component{
             <div className="App">
                 <Navbar title="Github Finder" icon="fab fa-github" />
                 <h2>Hello</h2>
+                <UserItem />
             </div>
         );
     }
