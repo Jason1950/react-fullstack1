@@ -12,7 +12,7 @@ class App extends React.Component{
             <div className="App">
                 <Navbar title="Github Finder" icon="fab fa-github" />
                 <h2>Hello</h2>
-                <UserItem />
+                <UserItem users="Jason2"/>
             </div>
         );
     }
