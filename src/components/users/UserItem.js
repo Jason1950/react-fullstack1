@@ -1,25 +1,26 @@
 import React, { Component } from 'react'
 
 class UserItem extends Component {
-    constructor(){
-        super();
-        this.state = {
-            id : 'id',
-            login :'jason1950',
-            html_url : 'https://github.com/jason1950',
-            avatar_rul : 'https://avatars.githubusercontent.com/u/45868260?s=60&v=4'
-        };
-    }
+    // constructor(){
+    //     super();
+    //     this.state = {
+    //         id : 'id',
+    //         login :'jason1950',
+    //         html_url : 'https://github.com/jason1950',
+    //         avatar_rul : 'https://avatars.githubusercontent.com/u/45868260?s=60&v=4'
+    //     };
+    // }
 
-    stateNotConstructor = {
-        id : 'id',
-        login :'jason1950',
-        html_url : 'https://github.com/jason1950',
-        avatar_rul : 'https://avatars.githubusercontent.com/u/45868260?s=60&v=4'
-    };
+    // stateNotConstructor = {
+    //     id : 'id',
+    //     login :'jason1950',
+    //     html_url : 'https://github.com/jason1950',
+    //     avatar_rul : 'https://avatars.githubusercontent.com/u/45868260?s=60&v=4'
+    // };
+    
 
     render() {
-        const {login, html_url, avatar_rul} = this.stateNotConstructor
+        const {login, html_url, avatar_rul} = this.props.user
         return (
             <div className="card text-center">
                 <img 
