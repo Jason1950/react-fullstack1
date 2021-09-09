@@ -2,7 +2,11 @@ React FullStack 1
 
 Following Udemy Tutorial First Project in React / Redux / Hooks ... etc
 
-The web view is like :
+The website on Github Pages URL : [https://jason1950.github.io/react-fullstack1/](https://jason1950.github.io/react-fullstack1/)
+
+Now, it had created the component of users(info obj), useritem(list), Navbar(icon)
+
+The initial web view  is like :
 
 ![image](./picture/readme_Picture.JPG)
 
